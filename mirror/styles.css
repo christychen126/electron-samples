@@ -10,10 +10,16 @@ video {
   object-fit: fill; /* Fill the entire screen with the video */
 }
 
-.filter {
+.filter1 {
   position: absolute;
   right: 15px;
   top: 15px;
+  color: white;
+}
+.filter2 {
+  position: absolute;
+  right: 15px;
+  top: 35px;
   color: white;
 }
 
@@ -28,6 +34,17 @@ video {
   animation: 3s linear 0s infinite alternate rainbow_background;
 }
 
+.animal-filter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  opacity: .3;
+  animation: 10s linear 0s infinite alternate animal_background;
+}
+
 /* Animate from red to green to blue */
 @keyframes rainbow_background {
   0% {
@@ -38,5 +55,17 @@ video {
   }
   100% {
     background: #00f;
+  }
+}
+
+@keyframes animal_background {
+  0% {
+    background: url(http://geekologie.com/2016/09/20/animal-eyes-1.jpg);
+  }
+  50% {
+    background: url(http://4.bp.blogspot.com/-6UKBzsHmFak/VYEoxWqmpGI/AAAAAAAAAjI/lEw0jBAN_K0/s1600/o-CATS-KILL-BILLIONS-facebook.jpg);
+  }
+  100% {
+    background: url(http://wonderopolis.org/_img?img=/wp-content/uploads/2015/03/1425_f.jpg&transform=resizeCrop,720,450);
   }
 }

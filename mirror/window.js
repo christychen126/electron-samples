@@ -34,4 +34,13 @@ $("#rainbow-toggle").change(function() {
   }
 })
 
+// Listen for the Rainbow Filter checkbox being clicked
+$("#animal-toggle").change(function() {
+  if (this.checked) {
+    $('.animal-filter').show()
+  } else {
+    $('.animal-filter').hide()
+  }
+})
+
 })

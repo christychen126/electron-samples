@@ -34,6 +34,22 @@ $("#rainbow-toggle").change(function() {
   }
 })
 
+$("#goat-toggle").change(function() {
+  if (this.checked) {
+    $('.goat-filter').show()
+  } else {
+    $('.goat-filter').hide()
+  }
+})
+
+$("#alien-toggle").change(function() {
+  if (this.checked) {
+    $('.alien-filter').show()
+  } else {
+    $('.alien-filter').hide()
+  }
+})
+
 // Listen for the Rainbow Filter checkbox being clicked
 $("#animal-toggle").change(function() {
   if (this.checked) {

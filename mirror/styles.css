@@ -23,13 +23,45 @@ video {
   color: white;
 }
 
+.filter3 {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+  color: white;
+}
+.filter4 {
+  position: absolute;
+  right: 15px;
+  top: 65px;
+  color: white;
+}
+
 .goat-filter {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background: url('goat.png');
+  display: none;
+  background: url('static/goat.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.alien-filter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background: url('static/alien.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .rainbow-filter {

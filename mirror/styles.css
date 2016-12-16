@@ -35,6 +35,12 @@ video {
   top: 65px;
   color: white;
 }
+.filter5 {
+  position: absolute;
+  right: 15px;
+  top: 80px;
+  color: white;
+}
 
 .goat-filter {
   position: absolute;
@@ -44,6 +50,20 @@ video {
   bottom: 0;
   display: none;
   background: url('static/goat.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nsync-filter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background: url('static/nsync.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

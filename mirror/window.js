@@ -50,6 +50,14 @@ $("#alien-toggle").change(function() {
   }
 })
 
+$("#nsync-toggle").change(function() {
+  if (this.checked) {
+    $('.nsync-filter').show()
+  } else {
+    $('.nsync-filter').hide()
+  }
+})
+
 // Listen for the Rainbow Filter checkbox being clicked
 $("#animal-toggle").change(function() {
   if (this.checked) {

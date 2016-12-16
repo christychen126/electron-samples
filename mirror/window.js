@@ -25,45 +25,53 @@ navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
   console.error(error)
 })
 
-// Listen for the Rainbow Filter checkbox being clicked
+$('#none-toggle').change(function() {
+  $('.filter').hide();
+});
+
 $("#rainbow-toggle").change(function() {
   if (this.checked) {
-    $('.rainbow-filter').show()
+    $('.filter').hide();
+    $('.rainbow-filter').show();
   } else {
-    $('.rainbow-filter').hide()
+    $('.rainbow-filter').hide();
   }
-})
+});
 
 $("#goat-toggle").change(function() {
   if (this.checked) {
-    $('.goat-filter').show()
+    $('.filter').hide();
+    $('.goat-filter').show();
   } else {
-    $('.goat-filter').hide()
+    $('.goat-filter').hide();
   }
-})
+});
 
 $("#alien-toggle").change(function() {
   if (this.checked) {
-    $('.alien-filter').show()
+    $('.filter').hide();
+    $('.alien-filter').show();
   } else {
-    $('.alien-filter').hide()
+    $('.alien-filter').hide();
   }
-})
+});
 
 $("#nsync-toggle").change(function() {
   if (this.checked) {
-    $('.nsync-filter').show()
+    $('.filter').hide();
+    $('.nsync-filter').show();
   } else {
-    $('.nsync-filter').hide()
+    $('.nsync-filter').hide();
   }
-})
+});
 
 // Listen for the Rainbow Filter checkbox being clicked
 $("#animal-toggle").change(function() {
   if (this.checked) {
-    $('.animal-filter').show()
+    $('.filter').hide();
+    $('.animal-filter').show();
   } else {
-    $('.animal-filter').hide()
+    $('.animal-filter').hide();
   }
 })
 

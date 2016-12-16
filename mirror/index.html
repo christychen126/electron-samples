@@ -19,22 +19,21 @@
     <video autoplay></video>
 
     <!-- Filter overlays -->
-    <div class="rainbow-filter"></div>
-    <div class="animal-filter"></div>
-    <div class="goat-filter"></div>
-    <div class="alien-filter"></div>
-    <div class="nsync-filter"></div>
+    <div class="filter rainbow-filter"></div>
+    <div class="filter animal-filter"></div>
+    <div class="filter goat-filter"></div>
+    <div class="filter alien-filter"></div>
+    <div class="filter nsync-filter"></div>
 
     <!-- Rainbow filter checkbox -->
-    <label class="filter1"><input type="checkbox" id="rainbow-toggle"> Rainbow Filter</label>
-
-    <label class="filter2"><input type="checkbox" id="animal-toggle">Animal Filter</label>
-
-    <label class="filter3"><input type="checkbox" id="goat-toggle">Goat Filter</label>
-
-    <label class="filter4"><input type="checkbox" id="alien-toggle">Alien Filter</label>
-
-    <label class="filter5"><input type="checkbox" id="nsync-toggle">N*SYNC Filter</label>
+    <div class="filter-options">
+      <label class='filter0'><input name='filter-choice' type='radio' id='none-toggle' checked='checked'> No Filter</label><br>
+      <label class="filter1"><input name='filter-choice' type="radio" id="rainbow-toggle"> Rainbow Filter</label><br>
+      <label class="filter2"><input name='filter-choice' type="radio" id="animal-toggle"> Animal Filter</label><br>
+      <label class="filter3"><input name='filter-choice' type="radio" id="goat-toggle"> Goat Filter</label><br>
+      <label class="filter4"><input name='filter-choice' type="radio" id="alien-toggle"> Alien Filter</label><br>
+      <label class="filter5"><input name='filter-choice' type="radio" id="nsync-toggle"> N*SYNC Filter</label>
+    </div>
 
 
   </body>

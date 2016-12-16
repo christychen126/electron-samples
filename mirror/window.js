@@ -65,6 +65,16 @@ $("#nsync-toggle").change(function() {
   }
 });
 
+$("#frozen-toggle").change(function() {
+  if (this.checked) {
+    $('.filter').hide();
+    $('.frozen-filter').show();
+  } else {
+    $('.frozen-filter').hide();
+  }
+
+});
+
 // Listen for the Rainbow Filter checkbox being clicked
 $("#animal-toggle").change(function() {
   if (this.checked) {

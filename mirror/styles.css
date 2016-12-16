@@ -79,6 +79,20 @@ video {
   background-size: cover;
 }
 
+.frozen-filter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  background: url('static/frozen.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .alien-filter {
   position: absolute;
   left: 0;

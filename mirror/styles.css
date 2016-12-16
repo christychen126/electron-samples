@@ -17,6 +17,15 @@ video {
   color: white;
 }
 
+.goat-filter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url('goat.png');
+}
+
 .rainbow-filter {
   position: absolute;
   left: 0;
